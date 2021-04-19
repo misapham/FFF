@@ -1,6 +1,6 @@
 # Setup instructions
 
-I used Create React App so to run and see my project you can use `npm start` 
+I used Create React App so to run and see my project please make sure to do an `npm install` before using `npm start` 
 
 Additional UI Feature: Show Description
 
