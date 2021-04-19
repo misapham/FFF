@@ -1,0 +1,44 @@
+.bookPage {
+  display: flex;
+  min-width: 300px;
+  min-height: 500px;
+  font-family: SourceSansProRegular,Helvetica,Arial,Verdana;
+  font-weight: 400;
+}
+
+.bookPage__inner {
+  position: relative;
+  overflow: hidden;
+  margin: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.bookPage__error {
+  position: relative;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bookPage__description-container {
+  text-align: center;
+  width: 100%;
+  height:100%;
+}
+
+@media (min-width: 700px) {
+  .bookPage {
+    min-width: 700px;
+  }
+
+  .bookPage__error {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .bookPage {
+    min-width: 1000px;
+  }
+}

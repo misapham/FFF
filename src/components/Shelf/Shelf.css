@@ -1,0 +1,21 @@
+.shelf {
+  width: 100%;
+  overflow: hidden;
+}
+
+.shelf__container {
+  margin: 10px;
+}
+
+.shelf__content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (min-width: 700px) {
+  .shelf__container {
+    margin: 10px 0px;
+  }
+}

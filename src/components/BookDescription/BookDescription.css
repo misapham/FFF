@@ -1,0 +1,46 @@
+.bookDescription {
+  position: relative;
+  max-width: 700px;
+  border: 1px solid;
+  padding: 20px;
+  border-radius: 15px;
+  display: inline-block;
+  background-color: white;
+  margin: 40px 0px;
+  border: none;
+}
+
+.bookDescription__close {
+  float: right;
+  padding: 10px;
+  background-image: url(../../close_icon.png);
+  background-size: 100%;
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  height: 30px;
+  outline: none;
+}
+
+.bookDescription__content {
+  width: 100%;
+  text-align: left;
+}
+
+@media (min-width: 700px) {
+  .bookDescription {
+    max-width: 700px;
+    padding: 20px;
+    margin: 40px;
+  }
+
+  .bookDescription__close {
+    width: 40px;
+    height: 40px;
+  }
+
+  .bookDescription__content {
+    width: 100%;
+    text-align: left;
+  }
+}

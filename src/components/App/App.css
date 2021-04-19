@@ -1,0 +1,11 @@
+.App {
+  background-color: #C7CEEA;
+  color: black;
+  overflow: hidden;
+}
+
+.App-header {
+  background-color: #C7CEEA;
+  min-height: 100vh;
+  color: black;
+}

@@ -1,0 +1,55 @@
+.bookTile {
+  background-color: #FFFF;
+  position: relative;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.bookTile__image {
+  border-radius: 12px;
+}
+
+.bookTile__title {
+  font: SourceSansProLight;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.bookTile__author {
+  font: SourceSansProLight;
+  font-size: 12px;
+  text-align: center;
+}
+
+.bookTile__image {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.bookTile__image-wrapper {
+  width: 175px;
+  text-align: center;
+}
+
+@media (min-width: 700px) {
+  .bookTile__title {
+    font-size: 16px;
+  }
+
+  .bookTile__author {
+    font-size: 12px;
+  }
+
+  .bookTile__image-wrapper {
+    width: 225px;
+    text-align: center;
+  }
+}
+
